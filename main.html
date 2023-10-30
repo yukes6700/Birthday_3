@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Static Webpage with Audio and CSS Animation</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="love-text">Happy Birthday my love</h1>
+        <div class="card">
+            <div class="card-content" id="text-card">
+                <h2 class="card-title">pirinthum piriyamal</h2>
+                <p class="card-description">Ammu this is my last gift and last part of the story. i felt this soo much in the recent times....my voice may be bad and the rhythm of this song may be un bearable..but this sing has my hearting beating in it.. longing for the love all it wants</p>
+                <button id="PBtn" class="submit-button">Proceed</button>
+            </div>
+        </div>
+        <div id="question" style="display: none;">
+            <p>which dress of yours is my favourite?</p>
+            <input type="text" id="answer" class="input-box">
+            <button id="submitBtn" class="submit-button">Submit</button>
+        </div>
+        <div class="gif" id="angryGif" style="display: none;">
+            <div style="width:100%;height:0;padding-bottom:74%;position:relative;">
+                <iframe src="https://giphy.com/embed/IScTu2L6wFJYc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+            <p><a href="https://giphy.com/gifs/disney-snow-white-doc-and-the-seven-dwarfs-IScTu2L6wFJYc">via GIPHY</a></p>
+        </div>
+        <div class="gif" id="kissGif" style="display: none;">
+            <div style="width:100%;height:0;padding-bottom:73%;position:relative;">
+                <iframe src="https://giphy.com/embed/Z21HJj2kz9uBG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+            <p><a href="https://giphy.com/gifs/animation-2d-Z21HJj2kz9uBG">via GIPHY</a></p>
+        </div>
+        <div id="audioPlayer" style="display: none;">
+            <audio controls>
+                <source src="content/audio_3.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
